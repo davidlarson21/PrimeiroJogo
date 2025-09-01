@@ -4,7 +4,6 @@ import random
 ESTADO_MENU = 0
 ESTADO_JOGANDO = 1
 
-
 pg.init()
 pg.mixer.init()
 
@@ -146,7 +145,6 @@ while rodando:
 
         if pg.sprite.spritecollideany(nave, asteroides):
             resetar_jogo()
-
 
     if estado_atual == ESTADO_MENU:
         tela.blit(imagem_menu, (0, 0))
