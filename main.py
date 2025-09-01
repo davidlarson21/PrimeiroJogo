@@ -94,6 +94,7 @@ estado_atual = ESTADO_MENU
 botao_rect = pg.Rect(LARGURA_TELA / 2 - 75, ALTURA_TELA / 2 + 50, 150, 50)
 
 pg.mixer.music.load(musica_menu)
+pg.mixer.music.set_volume(0.1)
 pg.mixer.music.play(-1)
 
 clock = pg.time.Clock()
